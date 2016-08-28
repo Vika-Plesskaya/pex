@@ -1,0 +1,452 @@
+* {
+    box-sizing: border-box;
+}
+
+.header-page {
+    width: 100%;
+    background: url(../image/background1.jpg);
+    background-size: cover;
+    padding-top: 15px;
+    height: 100%;
+}
+
+.header-page hr {
+    position: relative;
+    top: 65px;
+    border-color: #3c2c3b;
+    margin: 0;
+}
+
+.header-page .navbar-logo {
+    padding: 15px 0;
+}
+
+.header-page .navbar-collapse {
+    padding-right: 0;
+}
+
+.header-page .navbar-collapse .navbar-nav li {
+    padding-bottom: 10px;
+}
+
+.header-page .navbar-collapse .navbar-nav li a {
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    border-bottom: 2px;
+}
+
+.nav li a:hover, .nav li a:focus {
+    color: #e05069 !important;
+}
+
+.navbar-nav > li > a {
+    padding-bottom: 25px !important;
+}
+
+.header-page .navbar-collapse .navbar-nav li a:hover {
+    background: 0 0;
+    border-bottom: 2px solid #fff;
+    margin-top: -2px;
+}
+
+.header-page .navbar-collapse .navbar-nav li .navbar-form .input-group .form-control {
+    border-radius: 25px 0 0 25px;
+    color: #000;
+    width: 100%;
+    border: none;
+    padding: 0 20px;
+}
+
+.header-page .navbar-collapse .navbar-nav li .navbar-form .search-btn {
+    height: 34px;
+    border: none;
+    border-radius: 0 25px 25px 0;
+}
+
+.header-page .navbar-collapse .navbar-nav li:focus, .head-section .navbar-collapse .navbar-nav li:hover {
+    color: #e05069;
+}
+
+.header-page .header-content h1 {
+    margin: 218px 0 60px;
+    color: #fff;
+    font-size: 53px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 70px;
+}
+
+.header-page .header-content a {
+    text-decoration: none;
+}
+
+.header-page .header-content a span {
+    border-radius: 25px;
+    background: #8824cd;
+    color: #fff;
+    padding: 16px 55px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.header-page .header-content a span:hover {
+    color: #e05069;
+}
+
+.header-page .header-content p {
+    margin: 40px 0 200px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 17px;
+    color: #fff;
+    padding-right: 20px;
+}
+
+.info-section {
+    width: 100%;
+    background: #2e3b4e;
+    padding: 60px 0 90px;
+}
+
+.info-section .info-wrapper .info-content h2 {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.info-section .info-wrapper .info-content p {
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    color: #fff;
+}
+
+.info-section .style-img img {
+    position: relative;
+    top: 125px;
+}
+
+.wwhack-section {
+    width: 100%;
+    background: url(../image/background2.jpg);
+    background-size: cover;
+    padding: 130px 0 150px;
+    clear: both;
+}
+
+.wwhack-section .wwhack-content h2 {
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 60px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.wwhack-section .wwhack-content p {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 300;
+    padding-bottom: 23px;
+}
+
+.wwhack-section .wwhack-content a {
+    text-decoration: none;
+}
+
+.wwhack-section .wwhack-content a span {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    color: #d54c63;
+    font-style: normal;
+    font-weight: 600;
+    background: #fff;
+    border-radius: 25px;
+    padding: 10px 60px;
+}
+
+.wwhack-section .wwhack-content a span:hover {
+    color: #000;
+}
+
+.some-section {
+    width: 100%;
+    clear: both;
+}
+
+.some-section .some-wrapper {
+    width: 100%;
+}
+
+.some-section .some-wrapper .side-nav-img {
+    width: 40%;
+    float: left;
+}
+
+.some-section .side-nav-img .img-responsive {
+    margin-left: 0;
+}
+
+.some-section .some-wrapper .content-section {
+    width: 60%;
+    float: left;
+    padding: 35px 10.5% 35px 5%;
+}
+
+.some-section .some-wrapper .content-section h2 {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.some-section .some-wrapper .content-section p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    color: #000;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.some2-section {
+    width: 100%;
+    clear: both;
+    background: url(../image/background3.jpg);
+    background-size: cover;
+    padding: 100px 0 110px
+}
+
+.some2-section .some2-content h2 {
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 60px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 300
+}
+
+.some2-section .some2-content p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    color: #a87bb7;
+    font-style: normal;
+    font-weight: 300;
+    padding-bottom: 23px
+}
+
+.some2-section .some2-content a {
+    text-decoration: none
+}
+
+.some2-section .some2-content a span {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    background: #8824cd;
+    border-radius: 25px;
+    padding: 10px 60px
+}
+
+.some2-section .some2-content h6 {
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 300
+}
+
+.some2-section .full-back {
+    width: 100%;
+    height: 360px;
+    background: #4d215d;
+    opacity: 0.8;
+    background-size: cover;
+    position: absolute
+}
+
+.some3-section {
+    width: 100%;
+    clear: both;
+    background: url(../image/background4.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 200px 0 80px
+}
+
+.some3-section .slide {
+    height: 300px;
+    padding: 0 0px 30px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.some3-section .slide .carousel-inner {
+    height: 300px
+}
+
+.some3-section .slide .carousel-inner .item blockquote {
+    border-left: none;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.some3-section .slide .carousel-inner .item blockquote img {
+    width: 40px !important;
+    display: table-cell;
+    height: 40px !important;
+    margin-right: 15px;
+    position: relative;
+}
+
+.some3-section .slide .carousel-inner .item blockquote span {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 26px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 300;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    padding: 5px 30px;
+    position: relative;
+}
+
+.some3-section .slide .carousel-inner .item blockquote p {
+    position: relative;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 50px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.some3-section .avatar {
+    display: table;
+}
+
+.some3-section .slide .carousel-inner .item blockquote small {
+    display: table-cell;
+    position: relative;
+    color: #fff;
+}
+
+.some4-section {
+    width: 100%;
+    clear: both;
+}
+
+.some4-section .some4-wrapper {
+    width: 100%;
+}
+
+.some4-section .some4-wrapper .content4-section {
+    width: 65%;
+    float: left;
+    padding: 35px 5% 35px 14%;
+}
+
+.some4-section .some4-wrapper .content4-section h2 {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.some4-section .some4-wrapper .content4-section p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    color: #000;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.some4-section .some4-wrapper .side-nav-img {
+    width: 35%;
+    float: left;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.some4-section .some4-wrapper .side-nav-img img {
+    margin-right: 0;
+}
+
+.some5-section {
+    width: 100%;
+    padding: 60px 0 160px;
+    background: #e7526b;
+    clear: both;
+}
+
+.some5-section .some5-wrapper h2 {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.some5-section .some5-wrapper p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.some5-section .some5-wrapper span {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 300;
+    text-decoration: underline
+}
+
+.footer-section {
+    width: 100%;
+    padding: 60px 0 150px;
+    background: #2e3b4e;
+}
+
+.footer-section .footer-wrapper p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.footer-section .footer-wrapper p a {
+    font-size: 14px;
+    color: #fff;
+}
